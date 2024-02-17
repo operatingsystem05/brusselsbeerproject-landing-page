@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Fox Grotesque Pro';
+    src: local('Fox Grotesque Pro Regular'), local('Fox-Grotesque-Pro-Regular'),
+        url('FoxGrotesquePro-Regular.woff2') format('woff2'),
+        url('FoxGrotesquePro-Regular.woff') format('woff'),
+        url('FoxGrotesquePro-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+  }

@@ -1,0 +1,180 @@
+@font-face {
+      font-family: 'Fox Grotesque Pro';
+      src: local('Fox Grotesque Pro Regular'), local('Fox-Grotesque-Pro-Regular'),
+          url('FoxGrotesquePro-Regular.woff2') format('woff2'),
+          url('FoxGrotesquePro-Regular.woff') format('woff'),
+          url('FoxGrotesquePro-Regular.ttf') format('truetype');
+      font-weight: 400;
+      font-style: normal;
+    }
+
+* {
+    margin: 0 10px 5px 5px;
+    font-family: "Fox-Grotesque-Pro-Regular",'Helvetica Neue';
+    
+  }
+  
+  #header {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: none;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(255, 255, 255);
+
+  }
+  
+  #nav-bar {
+    margin-top: 15px;
+    font-size: 3vh;
+    margin-bottom: 2px;
+    color: #a56600;
+    font-weight: 500;
+    text-transform: uppercase;
+    text-decoration:overline ;
+  }
+  
+  #header-img {
+    margin-top: 5px;
+    height: 70px;
+    margin-bottom: 5px;
+  }
+  
+  a {
+    color: #a56600;
+    text-decoration: none;
+
+  }
+  
+  a:hover {
+    color: #000000;
+    font-style: none;
+  }
+  
+
+  #about {
+    color: rgb(0, 0, 0);
+    margin-top: 110px;
+    width: 100%;
+  }
+
+  #products {
+    color: rgb(0, 0, 0);
+    width: 100%;
+  }
+
+  .about.text, .products.text, .contact.text {
+    text-align: justify;
+    margin-bottom: 15px;
+  }
+
+  .name-price {
+    font-weight: bold;
+    text-align: center;  
+  }
+
+  #beer-text {
+    font-style: italic;
+  }
+
+  #video {
+    padding: #a56600;
+    height: 500px; 
+    width: 98%;
+    margin-bottom: 5px;
+  }
+
+   .titles {
+    color: #a56600;
+    font-size: 5rem;
+    text-transform: uppercase;
+  }
+
+  #beer {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  #beer > div {
+    flex: 46%; /* or - flex: 0 50% - or - flex-basis: 50% - */
+    /*demo*/
+    margin-bottom: 10px;
+  }
+  
+   .contact2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center ;
+    align-items: center;
+   }
+
+   .join {
+    margin-bottom: 5px;
+   }
+
+   #email {
+    height: auto;
+    width: 30vh;
+    padding: 8px;
+    border: 0;
+    border-bottom: #a56600 1px solid;
+   }
+
+   ::placeholder {
+    font-size: 15px;
+    color:#a56600 ;
+   }
+
+   #submit {
+    height: auto;
+    width: 30vh;
+    padding: 8px;
+    border: 0;
+    background-color: #a56600;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+   }
+
+  
+   .address {
+    margin-top: 20px;
+    text-align: center;
+    color: #a56600;
+    font-size: 4vh;
+    font-weight: bold ;
+   }
+
+
+
+  @media only screen and (max-width:543px) {
+    #about {
+      margin-top: 105px;
+    }
+    .title {
+
+    }
+
+    #video {
+      height: 300px; 
+    width: 98%;
+    }
+  }
+
+  @media only screen and (max-width:417px) {
+    #about {
+      margin-top: 140px;
+      
+    }
+    #header {
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+      justify-content: center;
+      position: fixed;
+    }
+  } 
